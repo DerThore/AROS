@@ -86,7 +86,9 @@
         else
         	myscreen = GetPrivIBase(IntuitionBase)->WorkBench;
     }
-   
+	
+    if(!myscreen) return FALSE;
+	
     screensize = sizeof(struct Screen);
     if(size < screensize) screensize = size;
     
