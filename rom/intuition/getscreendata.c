@@ -68,7 +68,8 @@
 
     EXTENDUWORD(size);
     EXTENDUWORD(type);
-
+	
+	UWORD screensize;
 	struct Screen *myscreen;
 
 	if(type == CUSTOMSCREEN)
