@@ -54,7 +54,7 @@
 	if(!rp)
         return;
 
-    if (textFont)
+    if(textFont)
     {
     	if(ExtendFont(textFont, 0))
     	{
